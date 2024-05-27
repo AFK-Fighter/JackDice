@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/jackDice.py
+src/JackDice.egg-info/PKG-INFO
+src/JackDice.egg-info/SOURCES.txt
+src/JackDice.egg-info/dependency_links.txt
+src/JackDice.egg-info/top_level.txt

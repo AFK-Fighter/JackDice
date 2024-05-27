@@ -1,0 +1,60 @@
+# Login user & pwd jacksclub
+username = "user@email.com"
+password = "your-jacksclub-pwd"
+
+# delay min 5 seconds, if error change to 10-100 or more
+timeDelay = 200
+
+# Enter 1 coin or more to be played randomly, make sure the amount of coins is sufficient
+# coin = "BTC, BCH, LTC, DOGE, ETH, XRP, TRX, USDT, BNB, JCC"
+# coin = "LTC, DOGE, XRP, TRX, USDT, JCC"
+coin = "JCC"
+
+# Min Bet limit & desired initial start, fill in 0 for random base bet by system
+# bbMin = 0.00000001
+bbMin = 0.00000666
+
+# Max Bet limit if the game breaks for some reason, fill in 0 for no limit
+# bbMax: 0.0001
+bbMax = 0.00019753
+
+# Percentage limit for bet increases is random, min 1 = no increase, will not exceed bbMax
+# bbInc = "1"
+bbInc = "1,3"
+
+# Percentage limit increases Bet randomly if game error and/or stat shows loss for recovery purposes, min 1 = no increase, will not exceed bbMax
+# bbIncLoss = "1"
+bbIncLoss = "2,10"
+
+# Path of saved daily profit data storage
+fileDataProfit = 'C:/Users/pc/Documents/python/jackDice/dataProfit/'
+
+# Path of PO formulas data Excel file
+fileDataPO = "C:/Users/pc/Documents/python/jackDice/data/dataPO.xlsx"
+
+# Enter the PO tab order you want to use, priority is for first order
+tabDataPO = "Recovery,Adv1,Adv2,Adv3,Adv4,Adv5,Adv6"
+
+# Enter the order of profit for filter tab DataPO (example: define 6 for 7 tab meaning the last 1 tab will be used randomly for largest profitFilter)
+# profitFilter = "0,0.0001,0.0002,0.0003,0.0004,0.0005"
+# profitFilter first can enter with '0' commonly use for recovery and will choose first in tabDataPO
+# then 2nd profitFilter for 2nd tabDataPO, 3rd profitFilter for 3rd tabDataPO and last profitFilter for random choosing tabDataPO  
+profitFilter = "0,0.00000001,1"
+
+# Enter a value if you want the bot to stop after reaching the desired profit/loss
+# Ignore it if you want the bot to work 24 hours non-stop
+stopProfit = 0.00000000
+stopLoss = 0.00000000
+
+# reset seed to keep the game light
+seedReset = 1000
+
+# Sound effect
+soundEffect = False
+ambientMusic = False
+
+# instant Bet effect
+instantBet = True
+
+# show save file profit info
+showfileProfit = False

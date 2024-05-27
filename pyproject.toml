@@ -1,0 +1,18 @@
+[project]
+name = "JackDice"
+version = "2024.05.27"
+authors = [
+  { name="AFK Fighter", email="andibeman16@gmail.com" },
+]
+description = "JackDice Bot Jacksclub by AFK Fighter"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/AFK-Fighter/JackDice/"
+Issues = "https://github.com/AFK-Fighter/JackDice/issues"
